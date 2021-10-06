@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registeration-form.css">
+</head>
+<body>
+    <form> 
+        <h2>Registeration Form</h2> <hr>
+        <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" required name="" placeholder="Enter Username">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" required name="" placeholder="Email">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" required name="" placeholder="*********">
+        </div>
+
+        <div class="form-group">
+            <label >Select Your Country</label>
+            <label>Select Country</label>
+                <input list="country" >
+                <datalist id="country">
+                    <option value="Afganistan">Afganistan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Bangladash">Bangladash</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="France">France</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Italy">Italy</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States">United States</option>
+                    <option value="France">France</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="India">India</option>
+                    <option value="Pakistan">Pakistan</option>
+                </datalist>
+        </div>
+
+        <div class="form-group">
+            <label>Date Of Appointment</label>
+            <input type="date" required>
+        </div>
+
+        <div class="form-group">
+            <label>Month</label>
+            <input type="month" required>
+        </div>
+
+        <div class="form-group">
+            <label>Week</label>
+            <input type="week" required>
+        </div>
+
+        <div class="form-group">
+            <label>Time Of Appointment</label>
+            <input type="time" required>
+        </div>
+
+        <div class="form-group">
+            <label>Submit Portfolio</label>
+            <input type="url" required >
+        </div>
+
+        <div class="form-group">
+            <label class="label-range">Qualification</label>
+            <input type="range" required min="1" value="8" step="2" max="10">
+        </div>  
+        
+        
+
+        <div class="form-group">
+            <label class="label-color">Upload Photo</label>
+            <input style="color: #555;" type="file" name="file">
+        </div>
+
+        <div class="form-group">
+            <label class="label-color">Select Color Code</label>
+            <input type="color" > 
+        </div>
+        <br>
+        <div class="form-group">
+            <label>Error while submiting? Reset here</label>
+            <input type="reset">
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit" >
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+form {
+  background: #f1f1f1;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+.form-group label {
+  font-size: 18px;
+}
+
+.form-group input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 10px silver;
+  border: 1px solid grey;
+  outline: none;
+  margin-top: 5px;
+  transition: box-shadow 1s;
+}
+.form-group input[type="reset"] {
+  font-size: 18px;
+  font-weight: 600;
+  width: 70px;
+}
+
+.form-group input[type="submit"] {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form-group input:focus {
+  box-shadow: inset 0px 0px 0px silver, 0 0 10px aqua;
+}
